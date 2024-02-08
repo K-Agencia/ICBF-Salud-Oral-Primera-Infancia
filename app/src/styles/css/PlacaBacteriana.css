@@ -1,0 +1,83 @@
+.PlacaBacteriana .card.center {
+  text-align: center;
+}
+
+#root > div > div.PlacaBacteriana > div > form > div.Observaciones.card {
+  text-align: left;
+}
+
+.PlacaBacteriana .placa input[type="number"].form-control {
+  padding: 0.375rem 5px;
+  border: 0px solid red;
+  outline: none;
+  text-align: center;
+  background: transparent;
+}
+
+.PlacaBacteriana .placa table tr td {
+  padding: 0px !important;
+}
+
+.table > :not(caption) > * > * {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.PlacaBacteriana .infoButton {
+  margin: 8px;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.PlacaBacteriana .placa td input[type="number"]:focus,
+.PlacaBacteriana .placa select:focus,
+.PlacaBacteriana .placa select,
+.PlacaBacteriana .placa input[type="number"].form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  text-align: center;
+}
+
+.PlacaBacteriana .calculos {
+  padding: 1px;
+  margin: 5px 0;
+}
+
+.PlacaBacteriana .calculos h1 {
+  margin: 0px;
+  color: #009b08;
+}
+
+.PlacaBacteriana .table_leyenda {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.PlacaBacteriana .table_leyenda .tituloTable {
+  color: #212529;
+  text-align: center;
+  font-weight: 500;
+  background-color: #00796f31 !important;
+}
+
+.PlacaBacteriana .table_leyenda td {
+  padding: 0 1em !important;
+  vertical-align: middle !important;
+}
+
+.PlacaBacteriana .table_leyenda td.td_grado {
+  width: 5em;
+  text-align: center;
+}
+
+.PlacaBacteriana .table_leyenda .subtituloTable {
+  padding: 0 1em;
+  color: #212529;
+  text-align: center;
+  font-weight: 500;
+  background-color: #4ac0b62a !important;
+}

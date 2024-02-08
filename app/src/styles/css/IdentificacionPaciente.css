@@ -1,0 +1,9 @@
+.IdentificacionPaciente .button-home{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.IdentificacionPaciente .btn{
+   width: max-content;
+}

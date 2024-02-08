@@ -1,0 +1,88 @@
+.Login,
+.Registrarse {
+   /* width: 100vw; */
+   height: max-content;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: url('../images/portada.jpg') no-repeat center center fixed;
+   background-size: cover;
+   position: relative;
+}
+
+.Login .logos,
+.Registrarse .logos {
+   width: max-content;
+   margin-bottom: 1em;
+}
+
+.Login .logos img,
+.Registrarse .logos img {
+   width: 80px;
+}
+
+.Login .card,
+.Registrarse .card {
+   width: 35%;
+   min-width: 400px !important;
+   margin: 1em;
+   padding: 1em 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: rgba(255, 255, 255, 0.30);
+   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+   backdrop-filter: blur(20px);
+   border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.Login .card-title,
+.Registrarse .card-title {
+   font-size: 2em;
+   font-weight: 900;
+   color: #fff;
+}
+
+.Login .card-body,
+.Registrarse .card-body {
+   width: 100%;
+}
+
+.Login form,
+.Registrarse form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Login form .form-label,
+.Registrarse form .form-label {
+   color: #fff;
+}
+
+.Login form button,
+.Registrarse form button {
+   margin-top: 1em;
+}
+
+.Login .bn-login{
+   margin-left: 0;
+   width: 100% !important;
+}
+
+@media only screen and (max-width: 480px) {
+   .Login .card,
+   .Registrarse .card {
+      width: 90%;
+      min-width: 200px !important;
+   }
+
+   .Login .bn-login{
+      margin-left: 0;
+      width: 100% !important;
+   }
+}

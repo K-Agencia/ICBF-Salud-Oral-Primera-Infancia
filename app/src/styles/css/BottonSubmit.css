@@ -1,0 +1,24 @@
+.BottonSubmit {
+  width: 100%;
+  margin-top: 1em !important;
+}
+
+.row.BottonSubmit {
+  justify-content: center;
+}
+
+.BottonSubmit .btns {
+  text-align: center;
+}
+
+.BottonSubmit .btn {
+  width: 250px;
+}
+
+@media only screen and (max-width: 480px) {
+  .BottonSubmit .btns {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

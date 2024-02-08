@@ -1,0 +1,20 @@
+.LoadingSpinner {
+   display: flex;
+   flex-direction: column;
+}
+
+.LoadingSpinner h5 {
+   color: #fff;
+}
+
+.Overlay {
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgba(0, 0, 0, .7);
+}

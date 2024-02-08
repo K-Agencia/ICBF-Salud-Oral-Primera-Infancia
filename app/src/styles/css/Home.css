@@ -1,0 +1,41 @@
+.Home .table {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.Home .table tr td:nth-child(1) {
+  width: 4%;
+  text-align: center;
+}
+
+.Home .table tr td:nth-child(2),
+.Home .table tr td:nth-child(3) {
+  width: 20%;
+  text-align: center;
+}
+
+.Home .table tr td:nth-child(4),
+.Home .table tr td:nth-child(5) {
+  width: 20%;
+  text-align: center;
+}
+
+.Home .history {
+  width: max-content;
+}
+
+.Home .btn-add {
+  width: 100%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .Home .btn-add {
+    width: 100%;
+    margin: 0;
+  }
+
+  .Home .table thead {
+    font-size: 0.7em;
+  }
+}

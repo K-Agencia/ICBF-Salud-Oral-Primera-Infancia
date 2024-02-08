@@ -1,0 +1,9 @@
+.TituloPaginas{
+   width: 100%;
+   margin: 1em 0 2em;
+}
+
+.TituloPaginas h1{
+   text-align: center;
+   color: #009b08;
+}

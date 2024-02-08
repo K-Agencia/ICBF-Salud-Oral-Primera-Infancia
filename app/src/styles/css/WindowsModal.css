@@ -1,0 +1,74 @@
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-3
+  > table,
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-4
+  > table:nth-child(1),
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-4
+  > table:nth-child(2),
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-5
+  > table {
+  text-align: center !important;
+}
+
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-3
+  > table
+  > thead,
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-4
+  > table:nth-child(1)
+  > thead,
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-4
+  > table:nth-child(2)
+  > thead,
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body
+  > div
+  > div.col-5
+  > table
+  > thead {
+  font-weight: 600;
+  background-color: #4ac0b62a !important;
+}

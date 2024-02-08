@@ -1,0 +1,22 @@
+.HistoriaClinica .antecedentes {
+  border-left: 3px solid #3d8314;
+}
+
+.HistoriaClinica .seccionAntecedentes .row .col-md-6:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.tab-content > .active {
+  background: #fff;
+  padding: 1em 2em;
+  border-right: 1px solid #0000002d;
+  border-bottom: 1px solid #0000002d;
+  border-left: 1px solid #0000002d;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.HistoriaClinica .table input[type="number"] {
+  text-align: center;
+}
